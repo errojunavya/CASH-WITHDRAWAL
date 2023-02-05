@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  background-color: #150b3e;
+  height: 800px;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name-container {
+  display: flex;
+}
+.initial-container {
+  height: 64px;
+  width: 64px;
+  border-radius: 32px;
+  background-color: #c7d2fe;
+  margin-right: 10px;
+}
+.initial {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.your-balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+.balance {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+.currency {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+}
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.choose-sum {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.denominations-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
